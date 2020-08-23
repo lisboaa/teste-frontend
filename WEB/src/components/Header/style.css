@@ -1,0 +1,58 @@
+div > header {
+    height: 6.25rem;
+    background-color: #1A202C;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search input {
+    cursor: pointer;
+    height: 2.5rem;
+    width: 22.43rem;
+    padding: 0 30px 0 12px;
+    /* margin-right: 19.06rem; */
+    border-radius: 0.18rem;
+    border: 0.06rem solid #2D3748;
+    background-color: #2D3748;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    background: #fff url('../../img/icons/search.svg') no-repeat 325px center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+div > header div img {
+    background-repeat: no-repeat;
+    margin-bottom: 0.31rem;
+    margin-right: 0.81rem;
+}
+
+
+header nav ul li img {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-right: 563px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    max-width: 1142px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+
+nav div ul li {
+    justify-content: flex-start;
+}
