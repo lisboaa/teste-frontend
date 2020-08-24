@@ -1,8 +1,8 @@
 ## Iniciar o projeto
 
-npm init ou yarn init
+npm ou yarn para baixar as dependencias
 
-npm start ou  yarn start
+npm start ou  yarn start para iniciar o projeto tanto back-end quanto front-end
 
 Inicie o back-end depois o front-end
 
